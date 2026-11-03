@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "chapitre": 1,
+  "equipe": "E07",
+  "membre": "TIOZANG NOTSA Chantal Carelle",
+  "date_utc": "2026-11-03T17:10:51+00:00",
+  "parametres": {
+    "timeout_s": 2,
+    "delai_serveur_s": 3,
+    "montant": 4000
+  },
+  "mesures": {
+    "latence_connexion_ms_moy": 0.1152,
+    "latence_connexion_ms_min": 0.0189,
+    "duree_scenario_a_s": 4.005,
+    "duree_scenario_b_s": 4.005
+  },
+  "resultats": {
+    "executions_sans_idempotence": 2,
+    "executions_avec_idempotence": 1
+  },
+  "fichiers": {
+    "serveur_py": true,
+    "client_py": true,
+    "client_reessaie": true
+  },
+  "environnement": {
+    "python": "3.14.2",
+    "systeme": "Linux",
+    "hote": "46e84cf59e"
+  },
+  "git": {
+    "commits": "2",
+    "auteur": "Tiozang Carelle"
+  },
+  "empreinte": "5111cbb813413ff2bd89dfd12221718124b13d3185b81e9aeceb2687a5201025"
+}
