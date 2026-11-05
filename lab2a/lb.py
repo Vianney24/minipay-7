@@ -5,7 +5,7 @@ Usage : python3 lb.py 8000 5001 5002
 """
 import itertools, sys
 import requests
-from flask import Flask, Response, request
+import Flask, Response, request from flask 
 
 ECOUTE = int(sys.argv[1])
 CIBLES = ["http://127.0.0.1:%s" % p for p in sys.argv[2:]]

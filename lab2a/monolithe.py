@@ -4,7 +4,7 @@ Usage : python3 monolithe.py 5001
 Chaque instance a sa propre base : monolithe_<port>.db
 """
 import sqlite3, sys
-from flask import Flask, jsonify, request
+from flask import Flask,jsonify,request 
 
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 5001
 DB = "monolithe_%d.db" % PORT
@@ -56,3 +56,7 @@ def payer():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=PORT, threaded=True)
+
+
+
+
