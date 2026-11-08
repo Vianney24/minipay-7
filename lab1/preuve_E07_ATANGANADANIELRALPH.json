@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "chapitre": 1,
+  "equipe": "E07",
+  "membre": "ATANGANA DANIEL RALPH",
+  "date_utc": "2026-11-08T21:04:04+00:00",
+  "parametres": {
+    "timeout_s": 2,
+    "delai_serveur_s": 3,
+    "montant": 4000
+  },
+  "mesures": {
+    "latence_connexion_ms_moy": 51.5253,
+    "latence_connexion_ms_min": 0.0292,
+    "duree_scenario_a_s": 4.005,
+    "duree_scenario_b_s": 4.005
+  },
+  "resultats": {
+    "executions_sans_idempotence": 2,
+    "executions_avec_idempotence": 1
+  },
+  "fichiers": {
+    "serveur_py": true,
+    "client_py": true,
+    "client_reessaie": true
+  },
+  "environnement": {
+    "python": "3.14.2",
+    "systeme": "Linux",
+    "hote": "2d395a3f57"
+  },
+  "git": {
+    "commits": "8",
+    "auteur": "ralphd12"
+  },
+  "empreinte": "8297cbc4b2a6b282dd4e7536bec76b6b4a767ad93d72f07aed594d88a7a07e88"
+}
