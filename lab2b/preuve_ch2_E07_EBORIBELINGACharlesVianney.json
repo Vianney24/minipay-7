@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "chapitre": 2,
+  "equipe": "E07",
+  "membre": "EBORI BELINGA Charles Vianney",
+  "date_utc": "2026-11-09T12:50:17+00:00",
+  "parametres": {
+    "timeout_s": 2,
+    "delai_serveur_s": 3,
+    "montant": 4000
+  },
+  "mesures": {
+    "latence_paiement_ms_moy": 17.564,
+    "redemarrage_paiement_s": 0.73
+  },
+  "resultats": {
+    "sante_initiale": true,
+    "paiement_ok": true,
+    "idempotence_ok": true,
+    "degrade_notification_ok": true,
+    "isolation_paiement_ok": true,
+    "reprise_ok": true
+  },
+  "environnement": {
+    "python": "3.14.2",
+    "systeme": "Linux",
+    "hote": "ea6475b06c"
+  },
+  "empreinte": "50e201f540f21d7f0f6499d87907a6680c57ed62958b75a7a7ddede33ebd2939"
+}
