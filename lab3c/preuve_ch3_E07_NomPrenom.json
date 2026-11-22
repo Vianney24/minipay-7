@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "chapitre": 3,
+  "equipe": "E07",
+  "membre": "Nom Prenom",
+  "date_utc": "2026-11-22T19:27:07+00:00",
+  "parametres": {
+    "timeout_s": 2,
+    "delai_serveur_s": 3,
+    "montant": 4000
+  },
+  "parametres_chapitre": {
+    "echecs_avant_succes": 3,
+    "seuil_disjoncteur": 3,
+    "messages": 2
+  },
+  "mesures": {
+    "duree_consommation_s": 6.24,
+    "latence_publication_ms_moy": 1.939
+  },
+  "resultats": {
+    "redistribution_ok": true,
+    "idempotence_consommateur_ok": true,
+    "doublon_sans_idempotence_ok": true,
+    "reessais_ok": true,
+    "reessais_abandon_ok": true,
+    "disjoncteur_ouvre_ok": true,
+    "disjoncteur_rapide_ok": true,
+    "disjoncteur_reprise_ok": true
+  },
+  "git": {
+    "commits": "16",
+    "auteur": "Bayard237"
+  },
+  "environnement": {
+    "python": "3.14.2",
+    "systeme": "Linux",
+    "hote": "0d687e28f9"
+  },
+  "empreinte": "aa9c8c46eada8c8120f228d32dc2e6faceff3d969972bf0999f9b4ffa181c928"
+}
