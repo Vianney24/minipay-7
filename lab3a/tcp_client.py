@@ -6,6 +6,8 @@ import json, socket, sys, time
 port = int(sys.argv[1]) if len(sys.argv) > 1 else 6000
 N = int(sys.argv[2]) if len(sys.argv) > 2 else 200
 
+time.sleep(0.09)
+
 def une_connexion():
     t = time.perf_counter()
     with socket.create_connection(("127.0.0.1", port), timeout=2) as s, s.makefile("rw", encoding="utf-8") as f:
