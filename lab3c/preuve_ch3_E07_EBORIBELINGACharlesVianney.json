@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "chapitre": 3,
+  "equipe": "E07",
+  "membre": "EBORI BELINGA Charles Vianney",
+  "date_utc": "2026-11-26T12:21:29+00:00",
+  "parametres": {
+    "timeout_s": 2,
+    "delai_serveur_s": 3,
+    "montant": 4000
+  },
+  "parametres_chapitre": {
+    "echecs_avant_succes": 3,
+    "seuil_disjoncteur": 3,
+    "messages": 2
+  },
+  "mesures": {
+    "duree_consommation_s": 6.21,
+    "latence_publication_ms_moy": 1.947
+  },
+  "resultats": {
+    "redistribution_ok": true,
+    "idempotence_consommateur_ok": true,
+    "doublon_sans_idempotence_ok": true,
+    "reessais_ok": true,
+    "reessais_abandon_ok": true,
+    "disjoncteur_ouvre_ok": true,
+    "disjoncteur_rapide_ok": true,
+    "disjoncteur_reprise_ok": true
+  },
+  "git": {
+    "commits": "7",
+    "auteur": "Vianney24"
+  },
+  "environnement": {
+    "python": "3.14.2",
+    "systeme": "Linux",
+    "hote": "ea6475b06c"
+  },
+  "empreinte": "3d9d37f507f8869ae49456a7bdfa46ad98d1a52e59c8549dc78182a7835ec83b"
+}
